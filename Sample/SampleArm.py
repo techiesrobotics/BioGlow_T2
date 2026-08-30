@@ -1,3 +1,10 @@
+################################################################
+#         Techies Robotics team training purposes only         #
+#   No sharing with or use by other teams without permission   #
+#        Contact techiesrobotics@gmail.com for permission      #
+################################################################
+
+
 from pybricks.pupdevices import Motor
 from pybricks.parameters import Port, Stop
 from pybricks.tools import wait
