@@ -13,7 +13,7 @@ from SampleRun1 import *
 from SampleRun2 import *
 
 hub = PrimeHub()
-sensor = ColorSensor(Port.B)
+sensor = ColorSensor(Port.E)
 
 last_color = None
 while True:
