@@ -11,7 +11,7 @@ from pybricks.tools import wait
 
 # Initialize a motor on port E.
 
-left_arm = Motor(Port.E)
+left_arm = Motor(Port.A)
  
 def raiseArmUp(speed, angle):
     left_arm.run_angle(speed, angle) 
