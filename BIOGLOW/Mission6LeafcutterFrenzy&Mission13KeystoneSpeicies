@@ -4,23 +4,26 @@ from pybricks.parameters import Button, Color, Direction, Port, Side, Stop
 from pybricks.robotics import DriveBase
 from pybricks.tools import wait, StopWatch
 
-hub = PrimeHub()
+robot = PrimeHub()
 
-from SETUP_AIBOBOt import*
+from setup import*
 
 SetSpeed(200)
-StraightAcceleration(75)
+StraightAcceleration(100)
 TurnRate(120)
 TurnAcceleration(60)
-MoveForward(175)
-TurnLeft(68)
-MoveForward(123)
-TurnRight(107)
-SetSpeed(15)
-MoveForward(48)
-SetSpeed(180)
-MoveBackward(55)
-TurnLeft(100)
-MoveBackward(147)
-TurnRight(52)
-MoveBackward(155)
+MoveForward(215)
+TurnLeft(95)
+MoveForward(147)
+TurnRight(133)
+SetSpeed(20)
+MoveForward(90)
+SetSpeed(200)
+MoveBackward(25)
+TurnRight(90)
+MoveForward(150)
+TurnRight(45)
+SetSpeed(300)
+MoveForward(100)
+wait(2.5)
+robot.turn(275)
