@@ -5,15 +5,22 @@ from pybricks.robotics import DriveBase
 from pybricks.tools import wait, StopWatch
 
 hub = PrimeHub()
-from setup import*
-SetSpeed(150)
+
+from SETUP_AIBOBOt import*
+
+SetSpeed(200)
 StraightAcceleration(75)
 TurnRate(120)
 TurnAcceleration(60)
 MoveForward(175)
-TurnLeft(70)
-MoveForward(140)
-TurnRight(105)
+TurnLeft(68)
+MoveForward(123)
+TurnRight(107)
 SetSpeed(15)
-MoveForward(75)
-SetSpeed(150)
+MoveForward(48)
+SetSpeed(180)
+MoveBackward(55)
+TurnLeft(100)
+MoveBackward(147)
+TurnRight(52)
+MoveBackward(155)
